@@ -8,6 +8,16 @@ require_once('config.php');
 	<title>User Registration | Php</title>
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<style>
+		body{
+    		background-color: #34623F;
+    		color: #B39C4D;
+		}
+		img{
+			display: inline;
+		}
+	</style>
 </head>
 <body>
 
@@ -19,9 +29,11 @@ require_once('config.php');
 <div>
 	<form action="registration.php" method="post">
 		<div class="container">
+		<div class="d-flex justify-content-center h-100">
 			
-			<div class="row">
-				<div class="col-sm-3">
+		<div class="row">
+				<div class="col">
+				<img src="../images/logo.png" class="brand_logo" alt="mylogo">
 					<h1>Registration</h1>
 					<hr class="mb-3">
 			<p>Fill up the form with correct values</p>
@@ -47,6 +59,7 @@ require_once('config.php');
 
 			</div>
 		</div>
+		</div>
 	</form>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -55,6 +68,7 @@ require_once('config.php');
 	$(function(){
 		$('#register').click(function(e){
 			var valid = this.form.checkValidity();
+			
 			if(valid){
 
 				var firstname 		= $('#firstname').val();
@@ -86,7 +100,6 @@ require_once('config.php');
 					}
 				});
 	
-			}else{
 			}
 		});
 	});
