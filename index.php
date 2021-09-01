@@ -33,7 +33,7 @@ require_once('config.php');
 			
 		<div class="row">
 				<div class="col">
-				<img src="../images/logo.png" class="brand_logo" alt="mylogo">
+				<img src="img/logo.png" class="brand_logo" alt="mylogo">
 					<h1>Registration</h1>
 					<hr class="mb-3">
 			<p>Fill up the form with correct values</p>
