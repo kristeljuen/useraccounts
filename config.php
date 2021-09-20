@@ -6,9 +6,9 @@
 
 //Remote Database Connection
 $host = 'sql6.freesqldatabase.com';
-$db_name = 'sql6436987';
-$db_user = 'sql6436987';
-$db_pass = '9UcbMJxbJ4';
+$db_name = 'sql6438632';
+$db_user = 'sql6438632';
+$db_pass = 'kzsht3f6CR';
 $charset = 'utf8';
 
 $dsn = "mysql:host=$host;dbname=$db_name;charset=$charset";
